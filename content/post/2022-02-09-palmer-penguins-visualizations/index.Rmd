@@ -13,7 +13,7 @@ tags:
 
 Measurements for penguin species, island in **Palmer Archipelago**, size (flipper length, body mass, bill dimensions), and sex.
 ## Call Libraries
-```{r message=FALSE}
+```{r Libraries, message=TRUE, warning=FALSE, paged.print=FALSE}
 library(tidyverse)
 library(palmerpenguins)
 ```

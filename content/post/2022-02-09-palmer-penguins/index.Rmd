@@ -37,10 +37,3 @@ loans <- loans_full_schema %>%
          state, annual_income, homeownership, debt_to_income)
 glimpse(loans)
 ```
-##
-```{python}
-import numpy as np
-a = np.array(1:10)
-
-```
-
