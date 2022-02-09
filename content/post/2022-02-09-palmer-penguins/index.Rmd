@@ -1,0 +1,46 @@
+---
+title: Palmer Penguins
+author: R package build
+date: '2022-02-09'
+slug: palmer-penguins
+categories: []
+tags: []
+---
+
+## Palmer Penguins
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(palmerpenguins)
+glimpse(penguins)
+```
+
+## Scatter Plot
+```{r}
+ggplot(data = penguins, 
+       mapping = aes(x = bill_depth_mm, y = bill_length_mm,
+                     colour = species)) +
+  geom_point() +
+  labs(title = "Bill depth and length",
+       subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+       x = "Bill depth (mm)", y = "Bill length (mm)",
+       colour = "Species")
+```
+
+## Open Intro
+
+```{r}
+library(openintro)
+glimpse(loans_full_schema)
+loans <- loans_full_schema %>%
+  select(loan_amount, interest_rate, term, grade, 
+         state, annual_income, homeownership, debt_to_income)
+glimpse(loans)
+```
+##
+```{python}
+import numpy as np
+a = np.array(1:10)
+
+```
+
