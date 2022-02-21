@@ -1,0 +1,26 @@
+---
+title: R Slides
+author: R package build
+date: '2022-02-20'
+slug: r-slides
+output: ioslides_presentation
+categories: []
+tags: []
+---
+
+# In the morning
+
+## Getting Up
+
+- Turn off alarm
+- Get out of Bed
+
+## Breakfast
+
+- Have Milk
+
+---
+```{r}
+plot(cars)
+```
+
